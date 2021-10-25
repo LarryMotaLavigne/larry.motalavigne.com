@@ -1,0 +1,160 @@
+baseURL: "https://larry.motalavigne.com/"
+title: Larry Mota--Lavigne
+paginate: 5
+theme: PaperMod
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+
+# googleAnalytics: UA-123-45
+
+minify:
+  disableXML: true
+  # minifyOutput: true
+
+languages:
+  en:
+    languageName: ":gb:"
+    languageAltTitle: English
+    weight: 1
+    menu:
+      main:
+        - identifier: posts
+          name: Posts
+          url: /posts/
+          weight: 10
+        - identifier: tags
+          name: Tags
+          url: /tags/
+          weight: 20
+        - identifier: archives
+          name: Archives
+          url: /archives/
+          weight: 30
+    profileMode:
+      enabled: true # needs to be explicitly set
+      title: Larry Mota\-\-Lavigne
+      subtitle: "Developer & Scrum Master 💻️"
+      imageUrl: "/larry.png"
+      imageWidth: 240
+      imageHeight: 240
+      imageTitle: ma photo
+      buttons:
+        - name: Posts
+          url: posts
+  fr:
+    languageName: ":fr:"
+    languageAltTitle: French
+    weight: 2
+    menu:
+      main:
+        - identifier: posts
+          name: Articles
+          url: /posts/
+          weight: 10
+        - identifier: tags
+          name: Tags
+          url: /tags/
+          weight: 20
+        - identifier: archives
+          name: Archives
+          url: /archives/
+          weight: 30
+    profileMode:
+      enabled: true # needs to be explicitly set
+      title: Larry Mota\-\-Lavigne
+      subtitle: "Développeur & Scrum Master 💻️"
+      imageUrl: "/larry.png"
+      imageWidth: 240
+      imageHeight: 240
+      imageTitle: my picture
+      buttons:
+        - name: Articles
+          url: posts
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: Larry Mota--Lavigne
+  description: "Larry Mota--Lavigne's blog and website"
+  keywords: [Blog, Porfolio, Dev life]
+  author: Larry
+  images: ["larry.png"]
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  displayFullLangName: true
+
+  comments: true
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: "<link / abs url>"
+    favicon16x16: "<link / abs url>"
+    favicon32x32: "<link / abs url>"
+    apple_touch_icon: "<link / abs url>"
+    safari_pinned_tab: "<link / abs url>"
+
+  label:
+    text: "Home"
+
+  socialIcons:
+    - name: twitter
+      url: "https://twitter.com/LarryMotaL"
+    - name: linkedin
+      url: "https://linkedin.com/in/larrymotalavigne"
+    - name: github
+      url: "https://github.com/LarryMotaLavigne"
+
+  analytics:
+    google:
+      SiteVerificationTag: "XYZabc"
+    bing:
+      SiteVerificationTag: "XYZabc"
+    yandex:
+      SiteVerificationTag: "XYZabc"
+
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+
+  editPost:
+    URL: "https://github.com/larryMotaLavigne/blog/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+services:
+    instagram:
+        disableInlineCSS: true
+    twitter:
+        disableInlineCSS: true
+
+disqusShortname: larrymotalavigne
