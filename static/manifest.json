@@ -1,6 +1,7 @@
 {
     "name": "Larry Mota--Lavigne",
     "short_name": "larryMotaLavigne",
+    "description": "Larry Mota--Lavigne's blog and webpage",
     "icons": [
         {
             "src": "/favicon/android-chrome-192x192.png",
