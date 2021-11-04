@@ -27,14 +27,10 @@ languages:
           name: Posts
           url: /posts/
           weight: 10
-        - identifier: tags
-          name: Tags
-          url: /tags/
+        - identifier: projects
+          name: Projects
+          url: /projects/
           weight: 20
-        - identifier: archives
-          name: Archives
-          url: /archives/
-          weight: 30
     profileMode:
       enabled: true # needs to be explicitly set
       title: Larry Mota\-\-Lavigne
@@ -44,8 +40,10 @@ languages:
       imageHeight: 240
       imageTitle: ma photo
       buttons:
-        - name: Posts
+        - name: "📃 Posts"
           url: posts
+        - name: "💡 Projects"
+          url: projects
   fr:
     languageName: ":fr:"
     languageAltTitle: French
@@ -56,14 +54,10 @@ languages:
           name: Articles
           url: /posts/
           weight: 10
-        - identifier: tags
-          name: Tags
-          url: /tags/
+        - identifier: projects
+          name: Projets
+          url: /projects/
           weight: 20
-        - identifier: archives
-          name: Archives
-          url: /archives/
-          weight: 30
     profileMode:
       enabled: true # needs to be explicitly set
       title: Larry Mota\-\-Lavigne
@@ -73,8 +67,10 @@ languages:
       imageHeight: 240
       imageTitle: my picture
       buttons:
-        - name: Articles
+        - name: "📃 Articles"
           url: posts
+        - name: "💡 Projets"
+          url: projects
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
