@@ -71,6 +71,13 @@ languages:
         - name: "💡 Projets"
           url: projects
 
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON
+
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Larry Mota--Lavigne
