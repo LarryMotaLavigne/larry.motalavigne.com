@@ -43,6 +43,7 @@ languages:
           url: posts
         - name: "💡 Projets"
           url: projects
+
   en:
     languageName: ":gb:"
     languageAltTitle: English
