@@ -1,6 +1,9 @@
-# Qui suis-je ? 
-
-## Hello World 👋
+---
+title: "Hello World 👋"
+date: "2021-11-17"
+description: "Hey ! J'ai créé un blog !"
+---
+# Hello World 👋
 
 Je m'appelle Larry, et je suis développeur Freelance.
 
@@ -13,8 +16,7 @@ Ma stack technique s'oriente autour de :
 * Conteneurisation (Docker/Kubernetes) 🐳
 * L'agilité et l'approche DevOps
 
-
-## Pourquoi j'ai créé ce blog ?
+# Pourquoi j'ai créé ce blog ?
 
 Plusieurs raisons à cela : 
 1. Pour me donner de la visibilité (et oui ! Un profil LinkedIn c'est bien, mais quand on veut en savoir plus sur la personne, et surtout de façon asynchrone, la meilleure des choses, c'est de regarder le contenu qu'elle écrit)

@@ -1,13 +1,13 @@
 ---
-title: "Hello World"
+title: "Test"
 date: "2021-10-25"
-description: "😮 I can write stuff here ?!"
+description: "😮 Je peux vraiment écrire des trucs ici ?!"
 ---
 
 Hello world 👋 !
 
-This page is purely a fake one to test if I can make funny things here 😀
+Là, c'est juste un test. Je fais cette page simplement pour voir si je peux faire des trucs cools 😀
 
-I'm using this Hugo template [PaperMod](https://github.com/adityatelange/hugo-PaperMod) just to see if I can easily make a dev blog, with 🇫🇷/🇬🇧 translation in no time.
+Je teste un template Hugo [PaperMod](https://github.com/adityatelange/hugo-PaperMod) pour voir si je peux facilement faire un blog de dev, avec une traduction 🇫🇷/🇬🇧 rapidement.
 
-Let's see how this will work and what will come after ! 
+On va voir comment ça se passe et ce qu'il viendra ensuite !
