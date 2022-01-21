@@ -45,33 +45,33 @@ languages:
         - name: "💡 Projets"
           url: projects
 
-  en:
-    languageName: ":gb:"
-    languageAltTitle: English
-    weight: 2
-    menu:
-      main:
-        - identifier: posts
-          name: Posts
-          url: /posts/
-          weight: 10
-        - identifier: projects
-          name: Projects
-          url: /projects/
-          weight: 20
-    profileMode:
-      enabled: true # needs to be explicitly set
-      title: Larry Mota\-\-Lavigne
-      subtitle: "Developer & Scrum Master 💻️"
-      imageUrl: "/larry.png"
-      imageWidth: 240
-      imageHeight: 240
-      imageTitle: ma photo
-      buttons:
-        - name: "📃 Posts"
-          url: posts
-        - name: "💡 Projects"
-          url: projects
+  # en:
+  #   languageName: ":gb:"
+  #   languageAltTitle: English
+  #   weight: 2
+  #   menu:
+  #     main:
+  #       - identifier: posts
+  #         name: Posts
+  #         url: /posts/
+  #         weight: 10
+  #       - identifier: projects
+  #         name: Projects
+  #         url: /projects/
+  #         weight: 20
+  #   profileMode:
+  #     enabled: true # needs to be explicitly set
+  #     title: Larry Mota\-\-Lavigne
+  #     subtitle: "Developer & Scrum Master 💻️"
+  #     imageUrl: "/larry.png"
+  #     imageWidth: 240
+  #     imageHeight: 240
+  #     imageTitle: ma photo
+  #     buttons:
+  #       - name: "📃 Posts"
+  #         url: posts
+  #       - name: "💡 Projects"
+  #         url: projects
 
 outputs:
     home:
