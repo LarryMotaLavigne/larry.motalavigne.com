@@ -34,7 +34,7 @@ languages:
     profileMode:
       enabled: true # needs to be explicitly set
       title: Larry Mota\-\-Lavigne
-      subtitle: "Développeur & Scrum Master 💻️"
+      subtitle: "Je code des trucs 💻️"
       imageUrl: "/larry.png"
       imageWidth: 240
       imageHeight: 240
