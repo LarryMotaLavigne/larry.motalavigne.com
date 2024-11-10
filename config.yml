@@ -1,6 +1,5 @@
 baseURL: "https://larry.motalavigne.com/"
 title: Larry Mota--Lavigne
-paginate: 5
 theme: PaperMod
 
 enableInlineShortcodes: true
@@ -19,59 +18,32 @@ minify:
 languages:
   fr:
     languageName: ":fr:"
-    languageAltTitle: French
-    weight: 1
-    menu:
-      main:
-        - identifier: posts
-          name: Articles
-          url: /posts/
-          weight: 10
-        - identifier: projects
-          name: Projets
-          url: /projects/
-          weight: 20
-    profileMode:
-      enabled: true # needs to be explicitly set
-      title: Larry Mota\-\-Lavigne
-      subtitle: "Je code des trucs 💻️"
-      imageUrl: "/larry.png"
-      imageWidth: 240
-      imageHeight: 240
-      imageTitle: my picture
-      buttons:
-        - name: "📃 Articles"
-          url: posts
-        - name: "💡 Projets"
-          url: projects
-
-  # en:
-  #   languageName: ":gb:"
-  #   languageAltTitle: English
-  #   weight: 2
-  #   menu:
-  #     main:
-  #       - identifier: posts
-  #         name: Posts
-  #         url: /posts/
-  #         weight: 10
-  #       - identifier: projects
-  #         name: Projects
-  #         url: /projects/
-  #         weight: 20
-  #   profileMode:
-  #     enabled: true # needs to be explicitly set
-  #     title: Larry Mota\-\-Lavigne
-  #     subtitle: "Developer & Scrum Master 💻️"
-  #     imageUrl: "/larry.png"
-  #     imageWidth: 240
-  #     imageHeight: 240
-  #     imageTitle: ma photo
-  #     buttons:
-  #       - name: "📃 Posts"
-  #         url: posts
-  #       - name: "💡 Projects"
-  #         url: projects
+    params:
+      languageAltTitle: French
+      weight: 1
+      menu:
+        main:
+          - identifier: posts
+            name: Articles
+            url: /posts/
+            weight: 10
+          - identifier: projects
+            name: Projets
+            url: /projects/
+            weight: 20
+      profileMode:
+        enabled: true # needs to be explicitly set
+        title: Larry Mota\-\-Lavigne
+        subtitle: "Senior Python Developer 🐍 💻️"
+        imageUrl: "/larry.png"
+        imageWidth: 240
+        imageHeight: 240
+        imageTitle: my picture
+        buttons:
+          - name: "📃 Articles"
+            url: posts
+          - name: "💡 Projets"
+            url: projects
 
 outputs:
     home:
@@ -114,7 +86,7 @@ params:
     apple_touch_icon: "favicon/apple-touch-icon.png"
 
   label:
-    text: "Home"
+    text: "⌂"
 
   socialIcons:
     - name: twitter

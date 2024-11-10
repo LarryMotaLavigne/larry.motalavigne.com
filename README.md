@@ -1,1 +1,3 @@
-# Larry's blog and website
+# larry.motalavigne.com
+
+Personal website
