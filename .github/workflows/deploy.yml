@@ -3,9 +3,6 @@ name: Deploy Hugo Site to GitHub Pages
 on:
   push:
     branches:
-      - main  # Trigger the action on pushes to the main branch
-  pull_request:
-    branches:
       - main
 
 jobs:
@@ -16,22 +13,20 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
+      - name: Update Git Submodules
+        run: git submodule update --init --recursive
+
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: 'latest'
           extended: true
 
-      - name: Install GitHub Pages Deploy Action
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          personal_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
-          publish_branch: gh-pages  # The branch for the built site
-          cname: larry.motalavigne.com  # If using a custom domain, replace with yours
-
       - name: Build site
         run: hugo --minify
+
+      - name: List generated files
+        run: ls -l ./public
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
@@ -39,4 +34,3 @@ jobs:
           personal_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
           publish_branch: gh-pages
-          cname: larry.motalavigne.com
