@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Larry Mota--Lavigne</title>
+    <link>https://larry.motalavigne.com/projects/</link>
+    <description>Recent content in Projects on Larry Mota--Lavigne</description>
+    <generator>Hugo</generator>
+    <language>fr</language>
+    <lastBuildDate>Mon, 25 Oct 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://larry.motalavigne.com/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test</title>
+      <link>https://larry.motalavigne.com/projects/project-1/</link>
+      <pubDate>Mon, 25 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://larry.motalavigne.com/projects/project-1/</guid>
+      <description>&lt;p&gt;Hello world 👋 !&lt;/p&gt;&#xA;&lt;p&gt;This page is purely a fake one to test if I can make funny things here 😀&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;m using this Hugo template &lt;a href=&#34;https://github.com/adityatelange/hugo-PaperMod&#34;&gt;PaperMod&lt;/a&gt; just to see if I can easily make a dev blog, with 🇫🇷/🇬🇧 translation in no time.&lt;/p&gt;&#xA;&lt;p&gt;Let&amp;rsquo;s see how this will work and what will come after !&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
