@@ -1,5 +1,5 @@
 baseURL: "https://larry.motalavigne.com/"
-title: Larry Mota--Lavigne
+title: "Larry Mota--Lavigne"
 theme: PaperMod
 
 enableInlineShortcodes: true
@@ -13,7 +13,6 @@ defaultContentLanguage: fr
 
 minify:
   disableXML: true
-  # minifyOutput: true
 
 languages:
   fr:
@@ -32,34 +31,33 @@ languages:
             url: /projects/
             weight: 20
       profileMode:
-        enabled: true # needs to be explicitly set
-        title: Larry Mota\-\-Lavigne
+        enabled: true
+        title: "Larry Mota--Lavigne"
         subtitle: "Senior Python Developer 🐍 💻️"
         imageUrl: "/larry.png"
         imageWidth: 240
         imageHeight: 240
-        imageTitle: my picture
+        imageTitle: "my picture"
         buttons:
           - name: "📃 Articles"
-            url: posts
+            url: /posts
           - name: "💡 Projets"
-            url: projects
+            url: /projects
 
 outputs:
-    home:
-        - HTML
-        - RSS
-        - JSON
+  home:
+    - HTML
+    - RSS
 
 params:
-  env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: Larry Mota--Lavigne
+  env: production # to enable google analytics, opengraph, twitter-cards, and schema.
+  title: "Larry Mota--Lavigne"
   description: "Larry Mota--Lavigne's blog and website"
-  keywords: [Blog, Porfolio, Dev life]
+  keywords: [Blog, Portfolio, Dev life]
   author: Larry
   images: ["larry.png"]
   DateFormat: "January 2, 2006"
-  defaultTheme: auto # dark, light
+  defaultTheme: auto
   disableThemeToggle: false
 
   ShowReadingTime: true
@@ -78,8 +76,6 @@ params:
   tocopen: false
 
   assets:
-    # disableHLJS: true # to disable highlight.js
-    # disableFingerprinting: true
     favicon: "favicon/favicon.ico"
     favicon16x16: "favicon/favicon-16x16.png"
     favicon32x32: "favicon/favicon-32x32.png"
@@ -87,7 +83,6 @@ params:
 
   label:
     text: "⌂"
-
 
   socialIcons:
     - name: twitter
@@ -98,17 +93,15 @@ params:
       url: "https://github.com/LarryMotaLavigne"
 
   cover:
-    hidden: true # hide everywhere but not in structured data
-    hiddenInList: true # hide on list pages and home
-    hiddenInSingle: true # hide on single page
+    hidden: true
+    hiddenInList: true
+    hiddenInSingle: true
 
   editPost:
     URL: "https://github.com/larryMotaLavigne/blog/tree/master/content"
-    Text: "Suggest Changes" # edit text
-    appendFilePath: true # to append file path to Edit link
+    Text: "Suggest Changes"
+    appendFilePath: true
 
-  # for search
-  # https://fusejs.io/api/options.html
   fuseOpts:
     isCaseSensitive: false
     shouldSort: true
@@ -119,9 +112,9 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 
 services:
-    instagram:
-        disableInlineCSS: true
-    twitter:
-        disableInlineCSS: true
+  instagram:
+    disableInlineCSS: true
+  twitter:
+    disableInlineCSS: true
 
 disqusShortname: larrymotalavigne
