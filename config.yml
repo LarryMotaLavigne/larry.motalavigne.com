@@ -34,7 +34,7 @@ languages:
         enabled: true
         title: "Larry Mota--Lavigne"
         subtitle: "Senior Python Developer 🐍 💻️"
-        imageUrl: "/larry.png"
+        imageUrl: "/larry.jpg"
         imageWidth: 240
         imageHeight: 240
         imageTitle: "my picture"
@@ -55,7 +55,7 @@ params:
   description: "Larry Mota--Lavigne's blog and website"
   keywords: [Blog, Portfolio, Dev life]
   author: Larry
-  images: ["larry.png"]
+  images: ["larry.jpg"]
   DateFormat: "January 2, 2006"
   defaultTheme: auto
   disableThemeToggle: false
