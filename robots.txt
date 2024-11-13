@@ -1,1 +1,3 @@
 User-agent: *
+Disallow:
+Sitemap: https://larry.motalavigne.com/sitemap.xml
