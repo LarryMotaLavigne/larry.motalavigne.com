@@ -2,7 +2,7 @@ const CACHE_VERSION = 1;
 
 const BASE_CACHE_FILES = [
     '/manifest.json',
-    '/larry.png',
+    '/larry.jpg',
 ];
 
 const OFFLINE_CACHE_FILES = [
